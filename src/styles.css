@@ -14,7 +14,7 @@ header {
     align-items: center;
     background: #777777 url('img/pizza-header-img.jpg');
     background-blend-mode: multiply;
-    background-position: center center;
+    background-position: center 50%;
     background-repeat: no-repeat;
     background-size: cover;
 }
