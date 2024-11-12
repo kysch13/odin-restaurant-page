@@ -14,11 +14,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #777777 url('img/pizza-header-img.jpg');
+    background: #777777 url('../img/pizza-header-img.jpg');
     background-blend-mode: multiply;
     background-position: center 70%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header h1 {
@@ -55,6 +56,70 @@ nav button {
 
 nav button:hover {
     color: rgb(255, 217, 163);
+}
+
+.inner-container {
+    max-width: 1200px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2::after {
+    display: block;
+    content: '';
+    width: 200px;
+    height: 1px;
+    background-color:#c00;
+    margin: 0 auto;
+}
+
+.home-features {
+    display: grid;
+    gap: 20px;
+    grid-template: 1fr / repeat(3, 1fr);
+}
+
+.home-feature {
+    background-color: #ffffff;
+
+    overflow: hidden;
+    border-radius: 10px;
+    filter: drop-shadow(1px 1px 3px #33333355);
+    font-size: 14px;
+}
+
+.home-feature h3 {
+    text-align: center;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  color: #c00;
+
+}
+
+.feature-img {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.feature-img.pizza {
+    background-image: url('../img/pizza.jpg');
+}
+
+.feature-img.pasta {
+    background-image: url('../img/pasta.jpg');
+}
+
+.feature-img.drinks {
+    background-image: url('../img/drinks.jpg');
+}
+
+.feature-text {
+    padding: 20px;
 }
 
 footer {
