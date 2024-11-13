@@ -122,6 +122,41 @@ h2::after {
     padding: 20px;
 }
 
+.menu-cards {
+    display: grid;
+    gap: 20px;
+    grid-template: 1fr / repeat(3, 1fr);
+}
+
+.menu-card {
+background-color: #ffffff;
+overflow: hidden;
+border-radius: 10px;
+filter: drop-shadow(1px 1px 3px #33333355);
+font-size: 14px;
+}
+
+.menu-card h3 {
+    font-size: 22px;
+}
+
+.menu-card-img {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-card-text {
+    padding: 30px;
+}
+
+.menu-price {
+    font-size: 22px;
+    font-weight: 600;
+    color: #c00;
+}
+
 footer {
     width: 100%;
     bottom: 0;

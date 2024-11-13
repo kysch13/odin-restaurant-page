@@ -1,5 +1,3 @@
-console.log('Hello Pizza!');
-
 const homeFeature = function(section, title, text) {
     const feature = elementMaker('div', 'home-feature');
     const featureImg = elementMaker('div', 'feature-img', section);
