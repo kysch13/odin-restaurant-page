@@ -2,6 +2,7 @@ import "./css/fonts.css";
 import "./css/styles.css";
 import { pageHome } from "./pages/page_home.js";
 import { pagePizza } from "./pages/page_pizza.js";
+import { pagePasta } from "./pages/page_pasta.js";
 
 pageHome();
 
@@ -20,7 +21,7 @@ const loadPage =  function(page) {
             pagePizza();
             break;
         case 'Pasta':
-            pageHome();
+            pagePasta();
             break;
     }
 }
