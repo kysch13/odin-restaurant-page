@@ -28,6 +28,7 @@ const pageHome = function() {
     const innerContainer = elementMaker('div', 'inner-container');
     const h2 = elementMaker('h2');
     h2.innerText = 'Features';
+    document.title = 'Pizzahouse | Home';
     const homeFeatures = elementMaker('div', 'home-features');
     const homeFeaturePizza = homeFeature('pizza', 'Pizza', ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum luctus quam, ut dignissim metus molestie a. Nam eleifend id felis in mattis. Morbi tincidunt lectus diam, non malesuada velit porta eu. Mauris risus ex, imperdiet ac iaculis at, posuere ac diam. Nulla at nisi sed nisl hendrerit semper. Morbi accumsan dapibus felis, consequat vestibulum tellus pretium et. Nam dictum justo a risus placerat, eu dapibus diam tempor. In ac luctus lectus, nec posuere tellus. Sed lacinia aliquet eros nec porttitor. Integer sagittis quam nec erat aliquet congue. ');
     const homeFeaturePasta = homeFeature('pasta', 'Pasta', ' Curabitur tempor ut lacus ac tempor. Aliquam viverra ante ac tortor accumsan, et sagittis felis imperdiet. Proin feugiat felis tortor, ut luctus nibh blandit et. Duis nisi diam, dictum id convallis quis, laoreet ac leo. Aenean risus justo, maximus sed tristique vel, varius nec urna. Duis id congue nulla. Etiam interdum magna massa, nec mollis sapien euismod vel. Maecenas aliquam tincidunt consequat. Maecenas eu arcu venenatis, lacinia arcu quis, consectetur arcu. ');

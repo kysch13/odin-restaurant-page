@@ -37,6 +37,7 @@ const pageDrinks = function() {
     const innerContainer = elementMaker('div', 'inner-container');
     const h2 = elementMaker('h2');
     h2.innerText = 'Drinks';
+    document.title = 'Pizzahouse | Drinks';
     const menuCards = elementMaker('div', 'menu-cards');
     const menu = [
         {img: drinks_redwine, name:'Red Wine', desc: 'Choose from a selection of fine red wines', price: 'from $11.49'},

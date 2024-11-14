@@ -39,6 +39,7 @@ const pagePizza= function() {
     const innerContainer = elementMaker('div', 'inner-container');
     const h2 = elementMaker('h2');
     h2.innerText = 'Pizzas';
+    document.title = 'Pizzahouse | Pizza';
     const menuCards = elementMaker('div', 'menu-cards');
     const menu = [
         {img: pizza_deluxe, name:'Deluxe', desc: 'Pepperoni, Bacon, Mushroom, Green Pepper, Extra Cheese', price: '$20.45'},

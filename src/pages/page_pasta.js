@@ -40,6 +40,7 @@ const pagePasta = function() {
     const innerContainer = elementMaker('div', 'inner-container');
     const h2 = elementMaker('h2');
     h2.innerText = 'Pastas';
+    document.title = 'Pizzahouse | Pasta';
     const menuCards = elementMaker('div', 'menu-cards');
     const menu = [
         {img: pasta_spaghetti, name:'Spaghetti', desc: 'Spaghetti and meatballs pasta dish', price: '$20.45'},
